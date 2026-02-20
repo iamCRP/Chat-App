@@ -1,16 +1,29 @@
-# chat_app
+# 💬 Flutter Firebase Chat App
 
-A new Flutter project.
+A modern real-time chat application built with Flutter and Firebase.
 
-## Getting Started
+## 🚀 Features
+- Firebase Authentication (Email & Password)
+- Real-time chat using Cloud Firestore
+- Delete message (soft delete)
+- Light & Dark mode
+- Clean & modern UI
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- Flutter
+- Firebase Auth
+- Cloud Firestore
+- Provider (State Management)
 
-A few resources to get you started if this is your first Flutter project:
+## 🔐 Firebase Setup
+1. Create Firebase project
+2. Enable Authentication (Email/Password)
+3. Create Firestore database
+4. Add your own:
+   - `google-services.json`
+   - `GoogleService-Info.plist`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ▶️ Run Project
+```bash
+flutter pub get
+flutter run
